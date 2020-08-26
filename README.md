@@ -10,4 +10,4 @@
 
 #### Wednesday August 26
 
-- 
+- Created programs using lists (GameOfLife.py, CommaCode.py & CoinFlip.py)

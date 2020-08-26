@@ -1,22 +1,18 @@
-# A test file, code is replaced often. I don't check, just push with everything else
+birthdays = {'Alice' : 'Apr 1', 'Bob' : 'Dec 12', 'Carol' : 'Mar4'}
 
-idk = [1,2,3,4,5]
-words = ['i', 'am', 'not', 'creative']
-multiList = [['davids','tea'], ['is' , 'alright']]
+while True:
+    print ('Enter a name: (Blank to Exit) ')
+    name = input()
 
+    if name == '':
+        break
 
-print(idk[-2])
-print(words[int(3.5)])
-print(multiList[0][1])
+    if name in birthdays:
+        print(birthdays[name] + ' is the birthday of ' + name)
+    else: 
+        print('No information for ' + name) 
+        print('Please enter ' + name + "'s birthday: ")
+        bday = input()
+        birthdays[name] = bday
+        print('Our database has been updated... ')
 
-
-if ('creative' in words):
-    print('creative is in words')
-else: 
-    print('creative is not in words')
-
-
-cat = ['fat', 'gray', 'loud']
-size, colour, demeanor = cat
-
-print('the cat is ' + size + ' and a light shade of ' + colour + ' but is very ' + demeanor)
