@@ -11,3 +11,7 @@
 #### Wednesday August 26
 
 - Created programs using lists (GameOfLife.py, CommaCode.py & CoinFlip.py)
+
+#### Thursday August 27
+
+- Started project related to dictonaries (fantasyGame.py)
