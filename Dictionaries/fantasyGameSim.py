@@ -1,21 +1,31 @@
 """
     Wants to be displayed like:
-    Inventory: 
+    Inventory:
     12 arrow
-    42 gold coin 
-    1 rope 
+    42 gold coin
+    1 rope
     etc....
-"""     
+    Total Number of items: 100
+"""
+import pprint
+
+possibleLoot = [ 'rope', 'torch', 'gold coin', 'dagger', 'arrow']
+
 inventory = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger' : 1, 'arrow': 12}
 
-def displayInventory(backpack):
+def displayInventory(amount, backpack):
     print("Inventory:")
-    
-    item_total = 0 
-    for k,v in backpack.items():
-        item_total = item_total + k.get(v)
 
+    for item in backpack:
+        if item in amount:
+            amount[item] += 1
+        else:
+            amount[item] = 1
 
-    print ("Total Number of items: " + str(item_total)) 
+    item_total = sum(inventory.values())
 
-displayInventory(inventory)
+    pprint.pprint(amount, width= 5)
+
+    print ("Total Number of items: " + str(item_total))
+
+displayInventory(inventory, possibleLoot)

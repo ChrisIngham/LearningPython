@@ -15,3 +15,8 @@
 #### Thursday August 27
 
 - Started project related to dictonaries (fantasyGame.py)
+
+#### Friday August 28
+
+- Completed dictonary inventory adder (fantasyGame.py)
+- Started working on string manipulation, shown in string.py & project mclip with pyperclip module
