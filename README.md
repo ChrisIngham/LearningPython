@@ -24,3 +24,9 @@
 #### Saturday August 29
 
 - Looked at udemy python course videos. To reinforce the learning that I have completed already. https://www.udemy.com/course/complete-python-bootcamp/ Up to section 7 - Milestone project
+
+#### Sunday August 30
+
+- String manipulation
+    - Finished a bulletpoint adder, so when you have copied a list of items and forgot to add bullets, this will automatically add them to whatever you have copied.
+    - Also completed a pigLain translator.
