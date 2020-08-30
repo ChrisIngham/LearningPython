@@ -1,6 +1,11 @@
 #! python3
 # mclip.py  - A multi-clipbaord program
+""" To get this script to work create a batch file
+    put :   @py.exe C:\path_to_file\mclip.py %*
+            @pause
 
+    Then in whatever command line, do mclip.bat 'keyphrase'
+"""
 import sys,pyperclip
 
 
