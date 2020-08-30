@@ -20,3 +20,7 @@
 
 - Completed dictonary inventory adder (fantasyGame.py)
 - Started working on string manipulation, shown in string.py & project mclip with pyperclip module
+
+#### Saturday August 29
+
+- Looked at udemy python course videos. To reinforce the learning that I have completed already. https://www.udemy.com/course/complete-python-bootcamp/ Up to section 7 - Milestone project
