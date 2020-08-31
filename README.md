@@ -1,4 +1,5 @@
-# LearningPython
+# Learning Python
+## To Enable Myself to Contribute to Open Source Projects
 
 
 #### Tuesday August 25
@@ -30,3 +31,4 @@
 - String manipulation
     - Finished a bulletpoint adder, so when you have copied a list of items and forgot to add bullets, this will automatically add them to whatever you have copied.
     - Also completed a pigLain translator.
+    - Zombie bot game, using the ZombieDie module (string/zombieDiceBots.py)
