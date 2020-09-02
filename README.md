@@ -32,3 +32,9 @@
     - Finished a bulletpoint adder, so when you have copied a list of items and forgot to add bullets, this will automatically add them to whatever you have copied.
     - Also completed a pigLain translator.
     - Zombie bot game, using the ZombieDie module (string/zombieDiceBots.py)
+
+#### Tuesday September 1
+
+- Looked at basic pattern matching, to deal with computers being able to read patterns of inputs and indentifying them like a human
+    - Such as a phone number being (xxx-xxx-xxxx) with x's being numbers, in NA
+    - Emails being x@s.com, with @ in the middle.
