@@ -38,3 +38,7 @@
 - Looked at basic pattern matching, to deal with computers being able to read patterns of inputs and indentifying them like a human
     - Such as a phone number being (xxx-xxx-xxxx) with x's being numbers, in NA
     - Emails being x@s.com, with @ in the middle.
+
+#### Wednesday September 2
+
+- Regex objects with pattern matching
