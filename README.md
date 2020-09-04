@@ -42,3 +42,7 @@
 #### Wednesday September 2
 
 - Regex objects with pattern matching
+
+#### Thursday September 3
+
+- Pattern Matching continued with re module
