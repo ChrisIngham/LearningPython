@@ -39,10 +39,7 @@
     - Such as a phone number being (xxx-xxx-xxxx) with x's being numbers, in NA
     - Emails being x@s.com, with @ in the middle.
 
-#### Wednesday September 2
+#### September 2 - 3
 
 - Regex objects with pattern matching
-
-#### Thursday September 3
-
 - Pattern Matching continued with re module
