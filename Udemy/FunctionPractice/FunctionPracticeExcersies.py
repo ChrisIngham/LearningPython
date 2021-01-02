@@ -61,18 +61,24 @@ def blackjack(a,b,c):
 # extending to the next 9 (every 6 will be followed by at least one 9). Return 0 for no numbers.
 def summer_of_69(arr):
     total = 0
-
+    index_of_6 = 0
+    index_of_9 = 0
     for i in range(len(arr)):
         if (arr[i] == 6):
             index_of_6 = i
         elif (arr[i] == 9):
-            index_of_9 =i
+            index_of_9 = i
         else:
             pass
-    for i in range(len(arr)):
-        if (i >= index_of_6 and i<= index_of_9):
-            pass
-        else:
+
+    if (arr.count(6) > 0):
+        for i in range(len(arr)):
+            if (i >= index_of_6 and i<= index_of_9):
+                pass
+            else:
+                total = total + arr[i]
+    else:
+        for i in range(len(arr)):
             total = total + arr[i]
 
     return(total)
