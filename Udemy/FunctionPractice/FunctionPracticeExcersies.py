@@ -84,3 +84,20 @@ def summer_of_69(arr):
     return(total)
 
 
+# Challenging Problems
+# SPY GAME: Write a function that takes in a list of integers and returns True if it contains 007 in order
+def spy_game(arr):
+    if (arr.count(0) > 1) and (arr.count(7) > 0):
+        if arr.index(7) > arr.index(0):
+            return (True)
+        else:
+            return (False)
+    else:
+        print(False)
+
+# COUNT PRIMES: Write a function that returns the number of prime numbers that exist up to and including a given number
+def count_primes(number):
+    # make a variable be the divisior and incremement it until you can divide number with it, until it equals the number value, when it hits that return false
+    
+
+
