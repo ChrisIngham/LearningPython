@@ -97,7 +97,17 @@ def spy_game(arr):
 
 # COUNT PRIMES: Write a function that returns the number of prime numbers that exist up to and including a given number
 def count_primes(number):
-    # make a variable be the divisior and incremement it until you can divide number with it, until it equals the number value, when it hits that return false
-    
-
-
+    prime_numbers = 0
+    # start at 2, as 0 and 1 are not prime numbers
+    for i in range(2, number + 1):
+        # set prime to true, as it will be prime unless it fits a requirement
+        prime = True
+        for n in range(2, i):
+            # divide i by all values < i, if any give no remainder we change prime to false, as it is not a prime, otherwise it is a prime num
+            if (i % n == 0):
+                prime = False
+                break
+        # increase counter for prime values as the previous requirements have not changed prime to false
+        if prime:
+            prime_numbers += 1
+    return(prime_numbers)
