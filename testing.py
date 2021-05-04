@@ -1,7 +1,16 @@
 
-import re
+translation_dict = {
+    "first" : 1,
+    2 : "two",
+    "third" : 3,
+    "fourth" : 4,
+    "fifth" : 5,
+    "sixth" : 6,
+    "seventh" : 7,
+    "eighth" : 8,
+    "ninth" : 9
+}
 
-phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+idk = int(input("Number: "))
 
-mo = phoneNumRegex.search('My number is 416-967-1111.')
-print('Phone number found: ' + mo.group())
+print (translation_dict[idk])
