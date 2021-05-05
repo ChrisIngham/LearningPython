@@ -1,16 +1,10 @@
+import numpy as np
 
-translation_dict = {
-    "first" : 1,
-    2 : "two",
-    "third" : 3,
-    "fourth" : 4,
-    "fifth" : 5,
-    "sixth" : 6,
-    "seventh" : 7,
-    "eighth" : 8,
-    "ninth" : 9
-}
 
-idk = int(input("Number: "))
 
-print (translation_dict[idk])
+Idk = np.array(["1","2","3","4","5","6","7","8","9","10"])
+print(Idk)
+
+indices = [1,2,3,4,5,6,7,8,9]
+Idk[indices] = 0
+print(Idk)
