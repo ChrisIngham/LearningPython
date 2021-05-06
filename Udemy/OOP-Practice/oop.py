@@ -10,7 +10,7 @@ class Dog():
 
     # Operators / Actions --> Methods
     def bark(self, number):
-        for i in range(number):
+        for n in (number):
             print("WOOF! My name is {}".format(self.name))
 
 
